@@ -174,6 +174,8 @@ return [
         // App\Providers\BroadcastServiceProvider::class,
         App\Providers\EventServiceProvider::class,
         App\Providers\RouteServiceProvider::class,
+        //Composer
+        Prettus\Repository\Providers\RepositoryServiceProvider::class,
 
     ],
 
